@@ -1,0 +1,1 @@
+Working with a csv file that contains weather data for each hour in 2012. There are many interesting connections between everyday life and the weather that were explored with the help of this dataset.
