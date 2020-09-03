@@ -20,8 +20,8 @@ def categorical(df):
  
 #Code for numerical variable
 def numerical(df):
-    numerical_var = df.select_dtypes(include = 'number').columns.tolist()
-    return numerical_var  
+    numericals = df.select_dtypes(include = 'number').columns.tolist()
+    return numericals  
     """ 
     This function accepts a dataframe and returns numerical list,
     containing the names of numerical columns(numerical_var).
